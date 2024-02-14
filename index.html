@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- Add the following inside the <nav> element -->
+        <div class="responsive-menu">
+          <div class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <div class="menu-items">
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="logo">
+          <img
+            src="./img/logo1.png"
+            width="120px"
+            height="60px"
+            alt=""
+            srcset=""
+          />
+          <!-- <a href="#">Flipkart</a> -->
+        </div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="products">
+        <div class="product-grid">
+          <div class="product-item">
+            <img src="./img/product-1.jpg" alt="Product 1" />
+            <h3>SAMSUNG Galaxy S21 FE 5G</h3>
+            <p class="price">₹54,999/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-2.jpg" lt="Product 2" />
+            <h3>Iphone 14 Pro Max</h3>
+            <p class="price">₹1,39,000/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-3.jpg" alt="Product 3" />
+            <h3>Galaxy S23 Ultra</h3>
+            <p class="price">₹1,24,000/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-4.jpg" alt="Product 1" />
+            <h3>boAt Rockerz 400 Super Bass Bluetooth Headset</h3>
+            <p class="price">₹1,499/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-5.jpg" alt="Product 2" />
+            <h3>boAt Rockerz 551 ANC with Hybrid ANC Headset</h3>
+            <p class="price">₹3,499/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-6.jpg" alt="Product 3" />
+            <h3>boAt Rockerz 450 Pro Bluetooth Headset</h3>
+            <p class="price">₹1,999/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-7.jpg" alt="Product 1" />
+            <h3>APPLE MacBook Air M1 (16 GB/512 GB SSD)</h3>
+            <p class="price">₹1,29,990/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-8.jpg" alt="Product 2" />
+            <h3>ASUS ROG Strix SCAR 15 Core i9 12th Gen</h3>
+            <p class="price">₹2,39,000/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-9.jpg" alt="Product 3" />
+            <h3>Acer Aspire 7 Core i5 12th Gen -</h3>
+            <p class="price">₹73,000/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-10.jpg" alt="Product 1" />
+            <h3>Boat Smart Watch</h3>
+            <p class="price">₹2,999/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-11.jpg" alt="Product 2" />
+            <h3>Canon EOS 90D DSLR Camera</h3>
+            <p class="price">₹1,21,990/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+          <div class="product-item">
+            <img src="./img/product-12.jpg" alt="Product 3" />
+            <h3>SAMSUNG 653 L Refrigerator</h3>
+            <p class="price">₹83,990/-</p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>This website is developed by Rahul Rathore</p>
+      <hr />
+      <p>@ Copyright 2023</p>
+    </footer>
+    <script>
+      document
+        .querySelector(".menu-icon")
+        .addEventListener("click", function () {
+          this.classList.toggle("rotate-down");
+          document.querySelector(".menu-items").classList.toggle("show-menu");
+        });
+    </script>
+  </body>
+</html>
